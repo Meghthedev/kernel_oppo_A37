@@ -95,7 +95,11 @@ menu "DOS/FAT/NT Filesystems"
 
 source "fs/fat/Kconfig"
 source "fs/ntfs/Kconfig"
+<<<<<<< HEAD
 source "fs/exfat/Kconfig"
+=======
+source "fs/sdfat/Kconfig"
+>>>>>>> b532beeb955 (fs: import sdfat & port to 3.10)
 
 endmenu
 endif # BLOCK
